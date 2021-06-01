@@ -1,0 +1,345 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+  font-family: 'Titillium Web', sans-serif;
+  color: #fff;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+@media (max-width: 650px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-height: 920px) {
+  html {
+    font-size: 51%;
+  }
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.background {
+  background: url(https://xsreviews.co.uk/wp-content/uploads/2020/10/slots-scaled.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.background .container {
+  text-align: center;
+  width: 70rem;
+  background: rgba(0, 0, 0, 0.95);
+  border: 5px solid #fe0094;
+  height: 78.5rem;
+  padding: 2rem;
+}
+
+.background .container .table {
+  font-size: 2rem;
+  width: 100%;
+  height: 4.5rem;
+  border-top: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 3px;
+}
+
+@media (max-width: 450px) {
+  .background .container .table {
+    height: 4rem;
+  }
+}
+
+.background .container .table .input {
+  height: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.background .container .table .input .amount {
+  height: inherit;
+  width: 12rem;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid #fe0094;
+}
+
+@media (max-width: 450px) {
+  .background .container .table .input .amount {
+    width: 9rem;
+  }
+}
+
+.background .container .table .input .amount img {
+  width: 100%;
+  height: 100%;
+  -webkit-filter: saturate(2.5);
+          filter: saturate(2.5);
+}
+
+.background .container .table .input input[type='text'] {
+  height: inherit;
+  width: 12rem;
+  background-color: transparent;
+  font-size: 3rem;
+  text-align: center;
+  outline: none;
+  border: 1px solid #3efffc;
+  border-right: none;
+}
+
+.background .container .table .output {
+  font-size: 3rem;
+  text-align: center;
+  padding: 1rem;
+  height: inherit;
+  width: 100%;
+  border: 1px solid #3efffc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fe0094;
+  font-weight: bold;
+}
+
+.background .container .text-container {
+  width: 100%;
+  height: 4rem;
+  margin: 3rem 0 1rem;
+  font-size: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.background .container .text-container h4 {
+  color: #3efffc;
+  margin-left: 1rem;
+}
+
+.background .container .text-container .manjak {
+  color: red;
+}
+
+.background .container .text-container .visak {
+  color: #00ffa0;
+}
+
+.background .container .total-container {
+  width: 100%;
+  height: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 3rem;
+}
+
+@media (max-width: 450px) {
+  .background .container .total-container {
+    margin-bottom: 5rem;
+  }
+}
+
+.background .container .total-container .total-amount {
+  width: 100%;
+  height: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #3efffc;
+}
+
+.background .container .total-container .total-amount h3 {
+  color: inherit;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.background .container .total-container .total-amount span {
+  color: inherit;
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.background .container .total-container .manjak {
+  color: red;
+}
+
+.background .container .total-container .visak {
+  color: #00ffa0;
+}
+
+.background .container .total-container .target-amount-container {
+  width: 100%;
+  position: relative;
+}
+
+.background .container .total-container .target-amount-container input[type='text'] {
+  height: 30px;
+  width: 100%;
+  background: transparent;
+  font-size: 2.5rem;
+  text-align: center;
+  outline: none;
+  border: none;
+  color: #fe0094;
+  padding-bottom: 0.3rem;
+  font-weight: bold;
+}
+
+.background .container .total-container .target-amount-container::after {
+  content: '';
+  position: absolute;
+  top: 29px;
+  left: 30%;
+  width: 40%;
+  height: 2px;
+  background: #fe0094;
+}
+
+.background .container .btn-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.background .container .btn-container .btn-total {
+  cursor: pointer;
+  width: 12rem;
+  font-size: 2rem;
+  border-radius: 2rem;
+  letter-spacing: 0.2rem;
+  font-weight: bold;
+  border: none;
+  background: #00ffa0;
+}
+
+.background .container .btn-container .btn-total:hover {
+  -webkit-box-shadow: 1px 1px 15px 5px #74f5c5;
+  box-shadow: 1px 1px 15px 5px #22ffae;
+}
+
+.background .container .btn-container .btn-clear {
+  cursor: pointer;
+  width: 12rem;
+  font-size: 2rem;
+  border-radius: 2rem;
+  letter-spacing: 0.2rem;
+  font-weight: bold;
+  border: none;
+  background: #ed213a;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#93291e), to(#8a1926));
+  background: linear-gradient(to right, #93291e, #8a1926);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.background .container .btn-container .btn-clear:hover {
+  -webkit-box-shadow: 1px 1px 15px 5px #e93d51;
+  box-shadow: 1px 1px 15px 5px #f54459;
+}
+
+.background .container .message {
+  width: 100%;
+  height: 4rem;
+  margin-top: 4rem;
+  border-radius: 2rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.3rem;
+  color: #34e7e4;
+}
+
+@media (max-width: 450px) {
+  .background .container .message {
+    font-size: 2rem;
+    margin-top: 5rem;
+  }
+}
+
+.background .container .manjak {
+  color: red;
+}
+
+.background .container .visak {
+  color: #00ffa0;
+}
+/*# sourceMappingURL=style.css.map */
